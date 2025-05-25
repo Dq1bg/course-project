@@ -1,0 +1,58 @@
+.hardware-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.hardware-tabs .tab-btn {
+  background-color: transparent;
+  border: 2px solid #00ffc3;
+  color: #00ffc3;
+  padding: 0.5rem 1.5rem;
+  font-size: 1.1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.hardware-tabs .tab-btn.active, .hardware-tabs .tab-btn:hover {
+  background-color: #00ffc3;
+  color: #0f0f0f;
+}
+
+.hardware-content {
+  display: none;
+}
+.hardware-content.active {
+  display: block;
+}
+
+.hardware-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.block {
+  background-color: #1a1a1a;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 12px #00ffc3;
+}
+.block h3 {
+  color: #00ffc3;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.block ul {
+  list-style: none;
+  padding: 0;
+}
+.block ul li {
+  color: #f0f0f0;
+  font-size: 1.05rem;
+  margin-bottom: 0.8rem;
+}
+.block ul li strong {
+  color: #00ffc3;
+}/*# sourceMappingURL=hardware.css.map */
